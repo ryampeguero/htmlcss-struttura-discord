@@ -5,7 +5,65 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+ul {
+    list-style: none;
+}
+
 /* HEADER */
 .header {
-    background-color: ;
+    background-color: #ADD8E6;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    background-color: #DAA520;
+    display: flex;
+    
+    
+    /* debug */
+    border: 2px dashed black;
+    width: 700px;
+}
+
+.nav div {
+   height: 40px;
+
+}
+
+.nav-logo {
+    flex-grow: 1;
+    border-right: 3px dashed black;
+}
+
+.nav-items {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    gap: 5px;
+
+    /* debug */
+    /* background-color: chocolate; */
+    /* border: 1px solid red; */
+}
+
+.item li {
+    
+    width: calc(100% / 5);
+    /* text-align: center; */
+    /* debug */
+    /* border: 1px solid pink; */
+}
+
+.login-form {
+    flex-grow: 1;
+    border-left: 3px dashed black;
 }
