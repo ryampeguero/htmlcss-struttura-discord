@@ -136,3 +136,25 @@ ul {
 .secondary {
     background-color: #D3D3D3;
 }
+footer {
+    background-color: #23272A;
+}
+footer .layout {
+    justify-content: flex-start;
+}
+
+footer .b-column {
+    width: calc(100% / 6 * 2);
+    background-color: #EF8080;
+    
+}
+
+footer .s-column {
+    width: calc(100% / 6);
+    background-color: #22B2AA ;
+}
+
+footer nav {
+    /* debug */
+    height: 40px;
+}
