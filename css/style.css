@@ -88,10 +88,21 @@ ul {
 
 /* Layouts */
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+    padding: 50px; 
     
-    width: 1200px;
-    padding: 50px;
+    /* debug */
+    border: 3px solid green;
+
+}
+
+.layout .img {
+    background-color: #248B24;
+    height: 885px;
+    width: 100%;
     
 }
 
@@ -99,11 +110,15 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    /* debug */
+    border: 2px solid black;
+    width: 1120px;
 }
 
 
 .b-column {
-    width: 720px;
+    width: 60%;
     height: 500px;
     background-color: #2090FE;
     /* debug */
@@ -111,10 +126,13 @@ ul {
 }
 
 .s-column {
-    width: 500px;
+    width: 40%;
     height: 500px;
     background-color: #FEC0CB;
     /* debug */
     border: 1px dashed black;
 }
 
+.secondary {
+    background-color: #D3D3D3;
+}
